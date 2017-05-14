@@ -1,0 +1,47 @@
+I made this for a class. Some of this code was taken from my professor, Xiling Li.
+_____________________________________________________________________
+This program compiles by running the makefile. The file is name 
+Makefile2 because the original make I was using was not working
+_____________________________________________________________________
+this is done by typing "make -f Makefile2"
+_____________________________________________________________________
+This program should display no compilation errors.
+There may be some warnings.
+If an error occurs it may potentially be in the output.
+_____________________________________________________________________
+To run the program, type
+"./sims.exe [-d][-v][-r quantum]<testcase1.txt"
+
+
+flags and text file names can be changed based on the functions wanted.
+
+The output file could not be called simcpu as requested due to an 
+issue in the cygwin on my personal laptop however it worked as
+sims.exe for an unknown reason.
+_____________________________________________________________________
+This program makes a CPU-Scheduling-Simulation. This is supposed to
+mimic how a CPU is able to schedule processses and threads, as well
+as calculate the performance of such outputs. This program attempts
+to use the round robin and the first come first serve method.
+_____________________________________________________________________
+There are a lot limitations in this program.
+This program does not actually display the CPU utilization or the average turnaround time properly.
+It does not correctly parse the input file completely, either.
+_____________________________________________________________________
+This program has a simple algorithm as it does not completely satisfy
+the requirements of the assignment. 
+_____________________________________________________________________
+PROFS QUESTIONS:
+i) This simulator includes a switch overhead time for each new thread
+for the first running state transition. 
+
+ii) It was assumed that there was a thread switch for each itme and 
+therefore does not run to idle states as that would depend 
+on when the thread enters the queue.
+
+iii) If the thread moves from runnng state to block state, and the
+queue is empty, this simulator will likely fall apart as it does not
+take into account that this could be a possibility.
+
+iv) Time slices and other interruptions will effect the program as it 
+does not properly switch between interrupted and noninteruppted states. 
