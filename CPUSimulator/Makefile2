@@ -1,0 +1,3 @@
+all: msh
+msh:
+	gcc -o sims -Wall main.c
