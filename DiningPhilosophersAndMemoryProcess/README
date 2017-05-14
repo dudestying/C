@@ -1,0 +1,25 @@
+This program compiles by running the makefile. The file is name 
+Makefile
+_____________________________________________________________________
+This is compiled by typing "make -f Makefile"
+_____________________________________________________________________
+This program should display no compilation errors.
+There may be some warnings.
+If an error occurs it may potentially be in the output.
+_____________________________________________________________________
+To run the program, type
+"./ice < in.txt"
+
+_____________________________________________________________________
+This program has two portions. 
+
+The first portion is the solution to the dining philosophers problem.
+This uses threads to solve the problem.
+
+The second portion is a memory process simulator.
+_____________________________________________________________________
+There are a lot limitations in this program.
+Memory can NOT be loaded off the ends of memory
+_____________________________________________________________________
+This program has a simple algorithm as it does not completely satisfy
+the requirements of the assignment. 
