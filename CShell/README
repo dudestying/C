@@ -1,0 +1,59 @@
+I created this program for a class. Some of the code was taken from my professor, Xiling Li.
+_____________________________________________________________________
+This program compiles by running the makefile.
+_____________________________________________________________________
+This is done by typing "make -f Makefile"
+_____________________________________________________________________
+This program should display no compilation errors.
+There may be some warnings.
+If an error occurs it may potentially be in the output.
+_____________________________________________________________________
+To run the program, type
+"./msh.exe"
+_____________________________________________________________________
+This program makes a shell. A shell is a program which allows a user to be able to call system commands and perform different tasks.
+This is completed by having the user type in commands which are then read and executed by the program.
+
+This shell is able to run the system calls with or without arguements.
+It can also be exited by calling "quit", "exit", "leave" or "done".
+In order to print out the name of the creator of the program, the user may type in "who" which will state that it was made by Salma Mobasher.
+If a user enters a command not recognized by the system, the program will say so.
+_____________________________________________________________________
+There are a few limitations in this program.
+When exiting, the user may type "quit", "exit", "leave" or "done", however it must be the first 
+word on the line, and all the letters must not be capitalized.
+_____________________________________________________________________
+The algorithm of the program is a giant while loop as provided by the prof, 
+with multuple if statements occuring when the program reads each inputted command.
+This seemed to be a reasonable and simple way to execute what has been created and to keep a consistent code.
+For most of the assignment I used the functions that the professor provided in his handout.
+_____________________________________________________________________
+The references for this program were the code given to the class by the professor, as well as a few links which I will leave below 
+(as I did a considerable amount of reading before starting the assignment) :
+
+https://www.gnu.org/software/libc/manual/html_node/Implementing-a-Shell.html
+
+http://bioinformatics.bc.edu/clotelab/RNApagenumber/src/srcComet/findSinglePageNumber.co
+
+http://ashimg.tripod.com/Parser.html
+
+https://brennan.io/2015/01/16/write-a-shell-in-c/
+
+http://stackoverflow.com/questions/28502305/writing-a-simple-shell-in-c-using-fork-execvp
+
+https://github.com/Protim/uoguelph/blob/master/CIS*3110/c-shell/myshell.c#L149
+
+http://stackoverflow.com/questions/4788374/writing-a-basic-shell
+
+https://www.cs.cornell.edu/courses/cs414/2004su/homework/shell/shell.html
+
+https://github.com/MrRobot245/Cis-3110/blob/master/A1/myshell.c#L182
+
+http://codereview.stackexchange.com/questions/67746/simple-shell-in-c
+
+https://www.cs.purdue.edu/homes/grr/SystemsProgrammingBook/Book/Chapter5-WritingYourOwnShell.pdf
+
+https://www.quora.com/What-are-some-good-tutorials-for-writing-a-shell-in-C
+
+https://www.gnu.org/software/libc/manual/html_node/Implementing-a-Shell.html
+_____________________________________________________________________
