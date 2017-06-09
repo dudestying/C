@@ -1,0 +1,51 @@
+****************************************************
+Salma Mobasher
+February 13, 2015
+****************************************************
+
+*******************
+About the program
+*******************
+
+This is a mimic of the original logo interprater.
+The functions it performs are fd, bk, rt, lt, st, ht, pu, pd, setpencolor, clean, bye and home.
+Once you have run the program, type one of the above commands and press enter. 
+The bk, rt, lt, fd, bk, and setpencolor functions require a number to be entered following the command.
+In order to exit, type bye.
+To change the colors of the border, change the color of the cursor, then type clean.
+
+*******
+Extras
+*******
+
+The extra 20% that I created was the "st"(show turtle), "ht"(hide turtle), and clean.
+
+************
+Compilation
+************
+
+In order to compile the program, run the makefile. 
+From the lx terminal open the A2 folder ( cd Desktop/cis2500/A2 ).
+Then type in "make".
+
+***********************
+Running the program
+***********************
+
+To run the program, open the A2 folder (as mentioned above).
+Then type in ./bin/runMe .
+
+*****************
+Known Limitations
+*****************
+
+The program does not run if the user presses the arrow keys on the keyboard.
+If the user continuously presses the arrow keys on the keyboard without pressing enter the code breaks.
+The user can not input any angles to turn other than 90 degrees.
+Each command is case sensitive and the user must enter the commands exactly as written.
+
+*****************
+Testing Done
+*****************
+
+This program has been tested on multiple different computers.
