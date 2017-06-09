@@ -1,0 +1,23 @@
+Salma Mobasher
+April 2
+
+*******************************************************
+This program compiles with the compilers named "-Wall", "-std=c99", "-pedantic", and "-lnucurses".
+
+The compilation line shold look like this:
+gcc -Wall -std=c99 src/A2.c src/A2functions.c -lncurses
+*******************************************************
+This program should display no compilation errors.
+*******************************************************
+To run the program, open the A2 folder on the Desktop and type in
+"./a.out {file path to input file}"
+
+Using the file given,the line should look like this:
+./a.out /assets/a2in2.txt
+*******************************************************
+This program makes a game in which a hero (player) runs through rooms, picks up collectibles  and gold, and can not walk through monsters.
+The room configurations change depending on the input file which is read by the program to draw the rooms.
+*******************************************************
+The limitations on this program are that there must be all that was stated in the document.
+Another is that the cursor disappears in the doorway as it goes to each room so to fix that you must move in the correct direction. 
+*******************************************************
