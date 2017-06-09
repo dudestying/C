@@ -1,0 +1,6 @@
+10X16 de1 dw2 ds8 g8,7 m3,4 h6,5 z2,2
+10X16 de1 dw2 ds8 G8,7 m3,4 M6,5 z2,2
+10X16 de1 dw2 ds8 g8,7 m3,4 p6,5 z2,2
+10X16 de1 dw2 ds8 G8,7 m3,4 e6,5 z2,2
+10X16 de1 dw2 ds8 g8,7 m3,4 g6,5 z2,2
+10X16 de1 dw2 ds8 a8,7 m3,4 G6,5 z2,2
