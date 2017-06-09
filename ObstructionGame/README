@@ -1,0 +1,47 @@
+****************************************************
+Salma Mobasher		
+January 16,  2015
+****************************************************
+
+*******************
+About the program
+*******************
+This is a game of obstruction where the players can not place their markers on blocked places.
+The last person to make a move on the board wins.
+
+*******
+Extras
+*******
+
+The extra 20% that I did was the following.
+I added colour where the x (green) and o(cyan) are placed, and the surrounding boxes are red.
+I made the cursor automatically go to the next available place, which is a hint.
+
+************
+Compilation
+************
+
+In order to compile the program, run the makefile. 
+From the lx terminal open the A1 folder ( cd Desktop/cis2500/a1 ).
+Then type in ./makeFile.sh .
+
+***********************
+Running the program
+***********************
+
+To run the program, open the A1 folder (as mentioned above).
+Then type in ./src/a1.c.
+
+*****************
+Known Limitations
+*****************
+
+The users can not quit the file until two names are typed in.
+In order to move, or select, lower case letters must be used. 
+If a player's name is longer than 50 characters the game may crash.
+
+*****************
+Testing Done
+*****************
+
+This program has been tested on multiple different computers.
