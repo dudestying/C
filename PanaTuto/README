@@ -1,0 +1,16 @@
+Salma Mobasher
+November 20, 2014       
+
+*************
+This program compiles with the compilers named "-Wall", "-pedantic", and "-std=c99". These should be typed in to the LX terminal with the correct folder open.
+*************
+This program should display no compilation errors.
+*************
+To run the program, type in "./a.out" in the terminal. The  program will ask you to enter a sentence. Type in any sentence. 
+*************
+This program takes the user input and prints whether or not it is a pangram ( a sentence which includes every letter of the alphabet). If the sentence is not a pangra, this program prints the missing letters. This program also checks if the input is a tutogram which is a sentence in which the first letter of all the words are the same.
+*************
+The limitation on the program is that the user must input less than 100 characters. If words begin with characters that are not numbers or letters such as commas, it will still work as if the comma does not exist. If the words begin with the same number, the program considers the numbers as letters and deems it a tutogram.
+*************
+To make the program more efficient, the use of the input length in the check4pangram function would have sped up the program since the program is currently told to check for the letters 100 times even if the input is less than 100.
+*************
