@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 #include <stdlib.h>
-#include"../include/A2.h"
+#include"../include/hero.h"
 
 //Checks to see if a valid number of items are inputted
 int validpar(int argcNum)
